@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+public class My {
+    public static void main(String[] args) {
+
+//Q8. Rotate a number
+        System.out.println("enter any number");
+        Scanner scn=new Scanner(System.in);
+        int n=scn.nextInt();
+        System.out.println("by what factor the number should be rotated?");
+        int f=scn.nextInt();
+        int dig=0;
+        //double div = 1;
+        //double quo=1;
+        while(n!=0){
+            n=n/10;
+            dig++;
+        } int mult=1;
+        int div=1;
+        for(int i=1;i<=dig;i++){
+            if(i<=f){
+                div=div/10;
+            } else{
+                mult=mult%10;
+            }
+        } int q = n/div; int r= n%div;
+        int rot=(r*mult)+q;
+            /*div=n%Math.pow(10,f);
+            quo= (n/Math.pow(10,f));
+        } double rot= div*Math.pow(10,(dig-f)) + quo;
+
+        System.out.println(rot);
+
+
+    }
+}
