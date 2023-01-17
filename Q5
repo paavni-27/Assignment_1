@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class My {
+    public static void main(String[] args) {
+    
+//Q5. write a code to count digits in a number
+        System.out.print("enter any number: ");
+        Scanner scn= new Scanner(System.in);
+        int n = scn.nextInt();
+        int digit=0;
+        while(n!=0){
+            n= n/10;
+            digit++;
+        }
+        System.out.println("total digits in the given number is " + digit);
+
+    }
+}
