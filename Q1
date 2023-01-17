@@ -1,0 +1,13 @@
+import java.util.Scanner;
+import java.util.*;
+public class My {
+    public static void main(String[] args) {
+        //Q1. Print Z
+        System.out.println("*******");
+        System.out.println("     *");
+        System.out.println("    *");
+        System.out.println("   *");
+        System.out.println(" *");
+        System.out.println("*******");
+        }
+      }
