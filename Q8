@@ -27,7 +27,7 @@ public class My {
         int rot=(r*mult)+q;
             /*div=n%Math.pow(10,f);
             quo= (n/Math.pow(10,f));
-        } double rot= div*Math.pow(10,(dig-f)) + quo;
+        } double rot= div*Math.pow(10,(dig-f)) + quo;*/
 
         System.out.println(rot);
 
